@@ -20,7 +20,7 @@ let setTheme = (theme) =>  {
   else {
     document.documentElement.removeAttribute("data-theme");
   }
-  localStorage.setItem("theme", theme);
+  sessionStorage.setItem("theme", theme);
 
   // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== 'undefined') {
@@ -68,7 +68,7 @@ let transTheme = () => {
 }
 
 
-let initTheme = (theme) => {
+let initTheme = (theme) => {  
   if (theme == null || theme == 'null') {
     const userPref = window.matchMedia;
     if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
@@ -80,4 +80,4 @@ let initTheme = (theme) => {
 }
 
 
-initTheme(localStorage.getItem("theme"));
+initTheme(sessionStorage.getItem("theme"));
