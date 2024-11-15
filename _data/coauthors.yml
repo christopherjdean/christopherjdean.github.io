@@ -4,7 +4,7 @@
 
 "Markakis":
   - firstname: ["Ioannis", "I."]
-    url: https://www.cst.cam.ac.uk/people/im496
+    url: https://jmarkakis.github.io
 
 "Reutter":
   - firstname: ["David", "D."]
@@ -13,3 +13,12 @@
 "Vicary": 
   - firstname: ["Jamie", "J."]
     url: https://www.cl.cam.ac.uk/~jv258/
+    
+"LeBlond": 
+  - firstname: ["Tyler", "T."]
+    url: https://www.ornl.gov/staff-profile/tyler-r-leblond
+
+"Bennink": 
+  - firstname: ["Ryan", "Ryan S.", "R.", "R.S."]
+    url: https://www.ornl.gov/staff-profile/ryan-s-bennink
+    
